@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="TestSuite">
+<test name="TestName">
+    <classes>
+        <class name="lesson7.AssertExample">
+            <methods>
+                <include name="someAsserts"></include>
+                <include name="someAsserts2"></include>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>

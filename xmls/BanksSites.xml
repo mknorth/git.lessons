@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="TestSuite">
+<!--<parameter name="email" value="kmaukr@gmail.com"></parameter>-->
+<!--<parameter name="password" value="qwerty2"></parameter>-->
+<test name="Bank">
+    <classes>
+        <class name="homework8.PrBankExample3">
+            <methods>
+                <include name="prBank"></include>
+                <include name="ukrSib"></include>
+                <include name="bankAval"></include>
+                <include name="oschadBank"></include>
+                <include name="BankEX2"></include>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>

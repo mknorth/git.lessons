@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="TestSuite">
+<parameter name="email" value="kmaukr@gmail.com"></parameter>
+<parameter name="password" value="qwerty2"></parameter>
+<test name="Login">
+    <classes>
+        <class name="lesson7part2.KismiaLogin">
+        </class>
+    </classes>
+</test>
+    <test name="ChangeGender">
+        <classes>
+            <class name="lesson7part2.KismiaChangeGender">
+            </class>
+        </classes>
+    </test>
+</suite>
