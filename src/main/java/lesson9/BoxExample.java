@@ -14,6 +14,7 @@ Box b2 = new Box();
 b2.height = 1;
 box9.weight = 13333;
 box9.height = 11;
+box9.height = 2;
 box9.printInfo();
 box9.printInfo2();
 

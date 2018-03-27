@@ -15,7 +15,7 @@ public class HeavyBoxLesson9 extends Box {
         System.out.println("So this is volume: " + volume);
     }
     public void printInfo2(){
-        Box bx = new Box();
+       // Box bx = new Box();
         weight = 1;
         System.out.println(height);
         System.out.println("Объем коробки: " + getVolume());

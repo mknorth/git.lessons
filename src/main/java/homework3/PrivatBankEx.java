@@ -52,6 +52,8 @@ public class PrivatBankEx extends BrowserLogin{
             String substr = "/";
             String[] parts = str.split(substr);
 
+
+
             String before = parts[0];
             String after = parts[1];
             aPrb3 = Double.parseDouble(before);

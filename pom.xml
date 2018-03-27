@@ -35,11 +35,21 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
+            <!--<plugin>-->
+                <!--<groupId>HighwayTH2018</groupId>-->
+                <!--<artifactId>allure-maven-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<resultsDirectory>allure-results</resultsDirectory>-->
+                    <!--<reportDirectory>${basedir}/target/</reportDirectory>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -66,15 +76,6 @@
                         <version>${aspectj.version}</version>
                     </dependency>
                 </dependencies>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -136,6 +137,11 @@
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
             <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>RELEASE</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
