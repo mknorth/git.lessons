@@ -15,7 +15,7 @@ public class AssertExample {
 
     }
 
-    @Test(dependsOnMethods = "someAssers")
+    @Test()
     public void someAsserts2() {
         Assert.assertEquals(5, 5);
         Assert.assertEquals("Jack", "Jack");
